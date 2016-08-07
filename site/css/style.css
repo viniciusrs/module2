@@ -146,6 +146,10 @@ body{
 
 /************ Styles of articles ******/
 
+h1{
+  font-size: 1.75em;
+}
+
 h3{
   font-weight: normal;
   font-size: 1em;
@@ -172,7 +176,6 @@ h3{
 .menu{
   position: relative;
   margin: 0px 20px 10px 20px;
-  clear: right;
   color: white;
   text-align: left;
   padding: 0px 0px 10px 10px;
