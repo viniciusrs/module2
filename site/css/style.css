@@ -5,8 +5,8 @@
 }
 
 body{
-  background-color: #FFD000;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F2F2F2;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 16px;
 }
 
@@ -146,19 +146,14 @@ body{
 
 /************ Styles of articles ******/
 
-h1{
-  font-size: 1.75em;
-}
-
 h3{
-  font-weight: normal;
   font-size: 1em;
 }
 
 #header{
-  color: white;
   text-align: center;
   margin: 20px 0px 20px 0px;
+  font-size: 1.75em;
 }
 
 .title{
@@ -168,15 +163,26 @@ h3{
   width: 100px;
   height: 20px;
   text-align: center;
-  background-color: red;
   border-bottom: 1px solid black;
   border-left: 1px solid black;
+}
+
+.titleColor1{
+    background-color: #00BFFF;
+}
+
+.titleColor2{
+    background-color: #00FF2F;
+}
+
+.titleColor3{
+    background-color: #FF00CC;
 }
 
 .menu{
   position: relative;
   margin: 0px 20px 10px 20px;
-  color: white;
+  background-color: #ABABAB;
   text-align: left;
   padding: 0px 0px 10px 10px;
   border: 1px solid black;
@@ -184,14 +190,3 @@ h3{
   padding-top: 25px;
 }
 
-.menuColor1{
-    background-color: #00BFFF;
-}
-
-.menuColor2{
-    background-color: #00FF2F;
-}
-
-.menuColor3{
-    background-color: #FF00CC;
-}
